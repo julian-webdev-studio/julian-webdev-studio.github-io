@@ -10,7 +10,6 @@ a{
     color: black;
 }
 body{
-    max-width: 2560px;
     width: 100%;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
@@ -199,22 +198,154 @@ main .aboutus{
 .services__card{
     margin: 0 50px;
 }
+.main__clients{
+    background-color:#000000;
+    padding: 100px 0 205px 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.main__clients h2{
+    margin-bottom: 30px;
+    font-size: 44px;
+    font-weight: 400;
+}
+.Our__clients{
+    font-weight: 600;
+}
+.main__clients img{
+    margin-top: 110px;
+    margin-left: 30px;
+}
+.main__testimonials{
+    background-color: #000000;
+    color: white;
+    padding: 100px 0 170px;
+    text-align: center;
+}
+.main__testimonials h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 400;
+}
+.main__testimonials .testimonials{
+    font-weight: 600;
+}
 
+.testimonial__paragraph{
+    margin-top: 120px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.testimonial__autor{
+    margin-top: 50px;
+    color: #b2b2b2;
+    font-weight: 300 ;
+}
+.testimonial__autor span{
+    font-weight: 700 ;
+}
 
+.main__work{
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+.main__work h2{
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.main__work p{
+    margin-top: 56px;
+    margin-bottom: 175px;
+    color: #6c6c6c;
+    font-style: italic;
+    font-size: 16px;
+    
+}
+.main__work img:hover{
+    opacity: 0.9;
+    transition-duration: 0.5s;
+}
 
+.contact__form{
+padding: 100px 0 100px 0;
+}
+.contact__form h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 30px;
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.contact__pharagraph{
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 95px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact__wraper{
+    width: 50%;
+    margin: 0 auto;
+    color: #636363;
+    display: flex;
+}
+input{
+    height: 40px;
+    width: 360px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.red{
+    color: red;
+}
+.form__inputs{
+    display: flex;
+}
+textarea{
+    width: 100%;
+    height: 163px;
+}
+input , textarea{
+    border: 1px solid #999999;
+    margin-top: 8px;
+}
+input:first-of-type{
+    margin-right: 25px;
+}
+.button__block{
+    display: flex;
+    float: right;
+}
+input[type=submit]{
+    height: 40px;
+    width: 165px;
+    background-color: #fcac45;
+    color: #fff;
+    margin-right: 0;
+    font-size: 16px;
+    border:none;
+    margin-top: 20px;
+}
+.footer__wpaper{
+    width: 14%;
+    margin: 0 auto;
+}
+footer{
+    background-color: #222222;
+    height: 92px;
+    width: 100%;
+    text-align: center;
+}
+.main__socialmedia{
+    padding-top: 31px;
+}
 @media screen and (max-width: 1010px){
     .topnav a{
         display: none;
@@ -287,6 +418,19 @@ main .aboutus{
     .about__service{
         padding-bottom: 40px;
     }
+    .line1 img:not(:first-child){
+        display: none;
+    }
+    .line2 img:not(:first-child){
+        display: none;
+    }
+    .line3 img:not(:first-child){
+        display: none;
+    }
+    .form__inputs{
+        flex-direction: column;
+    }
+
 }
 @media screen and (max-width: 1310px){
     nav{
@@ -305,5 +449,29 @@ main .aboutus{
 @media screen and (max-width: 1010px){
     .about__right{
         margin-left: 0%;
+    }
+}
+@media screen and (max-width: 550px){
+    input{
+        width: 200px;
+        height: 30px;
+    }
+    textarea{
+        width: 80%;
+    }
+    input[type=submit]{
+        height: 25px;
+        width: 130px;
+        margin-right: 50px;
+    }
+
+}
+@media screen and (max-width: 290px){
+    input{
+        width: 100px;
+        height: 20px;
+    }
+    textarea{
+        width: 70%;
     }
 }
