@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+li{
+	list-style: none;
+}
+body{
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.8px;
+}
+header{
+	width: 100%;
+	position: relative;
+	background: url(../img/first-bg.jpg.png) no-repeat;
+	background-size: cover;
+}
+
+.header__logo{
+	padding-top: 44px;
+	margin-left: 17%;
+}
+.wrapper{
+	width: 68%;
+	margin: 0 auto;
+}
+.main__welcome{
+	padding-top: 210px;
+	text-align: center;
+	padding-bottom: 130px;
+}
+.main__welcome h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 400;
+	padding-bottom: 50px;
+}
+.main__welcome p{
+	font-size: 75px;
+	font-weight: 400;
+	padding-bottom: 60px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.main__welcome .tell__more{
+	height: 65px;
+	width: 240px;
+	background-color: #fed136;
+	border-radius: 4px;
+	margin: 0 auto;
+	cursor: pointer;
+
+}
+.tell__more a{
+	position: relative;
+	top: 21px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #484543;
+	letter-spacing: 1px;
+}
+.main__services{
+	text-align: center;
+	padding: 120px 0 120px 0;
+
+}
+.main__services h2{
+	font-size: 40px;
+	font-weight: 400;
+	color: #222222;
+	text-transform: uppercase;
+	text-align: center;
+}
+.services__p{
+	margin-top: 20px;
+	font-size: 18px;
+	color: #777777;
+	text-align: center;
+}
+.services__cards{
+	margin-top: 78px;
+	display: flex;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.services__card{
+	margin-right: 41px;
+	margin-left: 41px;
+}
+.services__card h2{
+	padding-top: 24px;
+	font-size: 18px;
+	color: #222222;
+	font-weight: 600;
+}
+.services__card p{
+	font-size: 14px;
+	color: #777777;
+	font-weight: 400;
+	margin-top: 15px;
+}
+.main__portfolio{
+	text-align: center;
+	padding: 120px 0 134px 0;
+	background-color: #f7f7f7;
+}
+.main__portfolio h2{
+	font-size: 40px;
+	letter-spacing: -1px;
+	font-weight: 600;
+	color: #222222;
+	text-transform: uppercase;
+}
+.main__portfolio p{
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #777777;
+}
+.galery {
+margin-top: 75px;
+text-align: center;
+}
+.galery img{
+margin-right: 17px;
+margin-left: 17px;
+}
+.galery img:hover{
+	opacity: 0.8;
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+.main__about{
+	padding: 128px 0 112px 0;
+	text-align: center;
+}
+.main__about h2{
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 600;
+
+}
+.about__p{
+	margin-bottom: 85px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #777777;
+}
+
+.about__card{
+	display: flex;
+}
+.mv-100{
+	min-width: 100%;
+}
